@@ -8,88 +8,276 @@
   <!-- JQUERY 3.3.1  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Coolers</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
 
     <!-- HEADER  -->
-    <div class="row header-container">
-      <div class="col-sm-4">
-        <div class="header-image header-logo-area"></div>
-      </div>
-      <div class="col-sm-8">
-        <div class="header-image header-text-area"></div>
-      </div>
-    </div>
 
 
     <!-- BODY  -->
-    <div class="row" id="formsWrapper">
-      <form>
-        <div class="col-sm-12 all-questions-container">
+    <div class="forms-container" id="formsWrapper">
+      <form name="coolers">
+        <div class="row">
+          <div class="col-12 all-questions-container">
 
-          <!-- QUESTION 1  -->
-          <div class="row question-container-outer">
+            <!-- QUESTION 1  -->
+            <div class="question-container-outer">
 
-            <!-- QUESTION HEADER  -->
-            <div class="row question-container-header">
-              <div class="col-sm-12">
-                <h2>This is question 1</h2>
+              <div class="question-container-header">
+                <!-- QUESTION HEADER  -->
+              </div>
+
+              <!-- QUESTION BODY  -->
+              <div class="row question-container-body">
+
+                <!-- QUESTION BODY OPTIONS -->
+                <div class="row question-option-top col-12 text-center">
+                  <label class="col-4 question-option" for="answer1question1">
+                    <input type="radio" id="answer1question1" name="question1" value="1" required>
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer2question1">
+                    <input type="radio" id="answer2question1" name="question1" value="2">
+                    <div class="overlay">
+                    </div>
+                  </label>
+                  <label class="col-4 question-option" for="answer3question1">
+                    <input type="radio" id="answer3question1" name="question1" value="3">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+                <div class="row question-option-bottom col-12 text-center">
+                  <label class="col-4 question-option" for="answer4question1">
+                    <input type="radio" id="answer4question1" name="question1" value="4">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer5question1">
+                    <input type="radio" id="answer5question1" name="question1" value="5">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer6question1">
+                    <input type="radio" id="answer6question1" name="question1" value="6">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+            <!-- END QUESTION 1  -->
+
+            <!-- QUESTION 2  -->
+            <div class="question-container-outer">
+
+              <div class="question-container-header">
+                <!-- QUESTION HEADER  -->
+              </div>
+
+              <!-- QUESTION BODY  -->
+              <div class="row question-container-body">
+
+                <!-- QUESTION BODY OPTIONS -->
+                <div class="row question-option-top col-12 text-center">
+                  <label class="col-4 question-option" for="answer1question2">
+                    <input type="radio" id="answer1question2" name="question2" value="1" required>
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer2question2">
+                    <input type="radio" id="answer2question2" name="question2" value="2">
+                    <div class="overlay">
+                    </div>
+                  </label>
+                  <label class="col-4 question-option" for="answer3question2">
+                    <input type="radio" id="answer3question2" name="question2" value="3">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+                <div class="row question-option-bottom col-12 text-center">
+                  <label class="col-4 question-option" for="answer4question2">
+                    <input type="radio" id="answer4question2" name="question2" value="4">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer5question2">
+                    <input type="radio" id="answer5question2" name="question2" value="5">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer6question2">
+                    <input type="radio" id="answer6question2" name="question2" value="6">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+            <!-- END QUESTION 2  -->
+
+            <!-- QUESTION 3  -->
+            <div class="question-container-outer">
+
+              <div class="question-container-header">
+                <!-- QUESTION HEADER  -->
+              </div>
+
+              <!-- QUESTION BODY  -->
+              <div class="row question-container-body">
+
+                <!-- QUESTION BODY OPTIONS -->
+                <div class="row question-option-top col-12 text-center">
+                  <label class="col-4 question-option" for="answer1question3">
+                    <input type="radio" id="answer1question3" name="question3" value="1" required>
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer2question3">
+                    <input type="radio" id="answer2question3" name="question3" value="2">
+                    <div class="overlay">
+                    </div>
+                  </label>
+                  <label class="col-4 question-option" for="answer3question3">
+                    <input type="radio" id="answer3question3" name="question3" value="3">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+                <div class="row question-option-bottom col-12 text-center">
+                  <label class="col-4 question-option" for="answer4question3">
+                    <input type="radio" id="answer4question3" name="question3" value="4">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer5question3">
+                    <input type="radio" id="answer5question3" name="question3" value="5">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer6question3">
+                    <input type="radio" id="answer6question3" name="question3" value="6">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+            <!-- END QUESTION 3  -->
+
+            <!-- QUESTION 4  -->
+            <div class="question-container-outer">
+
+              <div class="question-container-header">
+                <!-- QUESTION HEADER  -->
+              </div>
+
+              <!-- QUESTION BODY  -->
+              <div class="row question-container-body">
+
+                <!-- QUESTION BODY OPTIONS -->
+                <div class="row question-option-top col-12 text-center">
+                  <label class="col-4 question-option" for="answer1question4">
+                    <input type="radio" id="answer1question4" name="question4" value="1" required>
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer2question4">
+                    <input type="radio" id="answer2question4" name="question4" value="2">
+                    <div class="overlay">
+                    </div>
+                  </label>
+                  <label class="col-4 question-option" for="answer3question4">
+                    <input type="radio" id="answer3question4" name="question4" value="3">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+                <div class="row question-option-bottom col-12 text-center">
+                  <label class="col-4 question-option" for="answer4question4">
+                    <input type="radio" id="answer4question4" name="question4" value="4">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer5question4">
+                    <input type="radio" id="answer5question4" name="question4" value="5">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer6question4">
+                    <input type="radio" id="answer6question4" name="question4" value="6">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+            <!-- END QUESTION 4  -->
+
+            <!-- QUESTION 5  -->
+            <div class="question-container-outer">
+
+              <div class="question-container-header">
+                <!-- QUESTION HEADER  -->
+              </div>
+
+              <!-- QUESTION BODY  -->
+              <div class="row question-container-body">
+
+                <!-- QUESTION BODY OPTIONS -->
+                <div class="row question-option-top col-12 text-center">
+                  <label class="col-4 question-option" for="answer1question5">
+                    <input type="radio" id="answer1question5" name="question5" value="1" required>
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer2question5">
+                    <input type="radio" id="answer2question5" name="question5" value="2">
+                    <div class="overlay">
+                    </div>
+                  </label>
+                  <label class="col-4 question-option" for="answer3question5">
+                    <input type="radio" id="answer3question5" name="question5" value="3">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+                <div class="row question-option-bottom col-12 text-center">
+                  <label class="col-4 question-option" for="answer4question5">
+                    <input type="radio" id="answer4question5" name="question5" value="4">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer5question5">
+                    <input type="radio" id="answer5question5" name="question5" value="5">
+                    <div class="overlay"></div>
+                  </label>
+                  <label class="col-4 question-option" for="answer6question5">
+                    <input type="radio" id="answer6question5" name="question5" value="6">
+                    <div class="overlay"></div>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+            <!-- END QUESTION 5  -->
+
+
+            <!-- SUBMIT BUTTON  -->
+
+            <div class="row">
+              <div class="col-12">
+                <button class="btn" type="submit"></button>
               </div>
             </div>
 
-            <!-- QUESTION BODY  -->
-            <div class="row question-container-body">
-              <!-- QUESTION BODY OPTIONS -->
-              <div class="row question-option-top">
-                <div class="col-sm-4 question-option">
-                  <input type="radio" id="answer1question1" name="question1" value="1"><label for="answer1question1">Answer 1</label>
-                </div>
-                <div class="col-sm-4 question-option">
-                  <input type="radio" id="answer2question1" name="question1" value="2"><label for="answer2question1">Answer 2</label>
-                </div>
-                <div class="col-sm-4 question-option">
-                  <input type="radio" id="answer3question1" name="question1" value="3"><label for="answer3question1">Answer 3</label>
-                </div>
-              </div>
-
-              <div class="row question-option-bottom">
-                <div class="col-sm-4 question-option">
-                  <input type="radio" id="answer4question1" name="question1" value="4"><label for="answer1question1">Answer 4</label>
-                </div>
-                <div class="col-sm-4 question-option">
-                  <input type="radio" id="answer5question1" name="question1" value="5"><label for="answer2question1">Answer 5</label>
-                </div>
-                <div class="col-sm-4 question-option">
-                  <input type="radio" id="answer6question1" name="question1" value="6"><label for="answer3question1">Answer 6</label>
-                </div>
-              </div>
-
-
-              <!-- SUBMIT BUTTON  -->
-
-              <div class="row">
-                <div class="col-sm-12">
-                  <button class="btn btn-info" type="submit">SUBMIT</button>
-                </div>
-              </div>
-
-            </div>
           </div>
         </div>
       </form>
 
       <!-- QUESTIONS RESPONSES  -->
       <div class="row questions-outcome-container">
-        <div class="hidden-answer col-sm-12 questions-outcome" id="option1">
+        <div class="hidden-answer col-12 questions-outcome" id="option1">
           <p>Option 1</p>
         </div>
-        <div class="hidden-answer col-sm-12 questions-outcome" id="option2">
+        <div class="hidden-answer col-12 questions-outcome" id="option2">
           <p>Option 2</p>
         </div>
-        <div class="hidden-answer col-sm-12 questions-outcome" id="option3">
+        <div class="hidden-answer col-12 questions-outcome" id="option3">
           <p>Option 3</p>
+        </div>
+        <div class="hidden-answer col-12 questions-outcome" id="option4">
+          <p>Option 4</p>
         </div>
       </div>
 

@@ -1,29 +1,61 @@
 /* GOTO :: BASE STYLES */
-* {
-  border: 1px dashed black;
-}
 body {
   width: 100%;
 }
 
-.container {
+.row {
+  margin:0 !important;
+}
+
+.container-fluid, .question-container-outer {
+width:100%;
+}
+
+.forms-container {
+  width:75%;
   margin:auto;
 }
 
-
-/* GOTO :: HEADER STYLES */
-.header-container {
-  margin: auto;
-  width:100%;
-  height: 50px;
-}
-.header-logo-area {
-  background: red;
-  height:100px;
-}
-
-
 /* GOTO :: QUESTION CONTAINER STYLES */
+.all-questions-container {
+  background: orange;
+}
+
+.question-container-header {
+  height:100px;
+  background: brown;
+  margin-top:100px;
+}
+
+.question-option, .overlay {
+  height:200px;
+  width:200px;
+  background-image: linear-gradient(
+      45deg,
+      red, #f06d06
+    );
+}
+
+.question-option > input {
+  visibility: hidden;
+  position: absolute;
+}
+
+.question-option > input + div {
+    cursor: crosshair;
+}
+
+.question-option > input:checked + div{
+    border: 4px solid #0044ff;
+}
+
+/* GOTO :: BUTTON STYLES */
+.btn {
+  width:100%;
+  height:100px;
+  background: blue;
+}
+
 
 
 /* GOTO :: ANSWER STYLES */
