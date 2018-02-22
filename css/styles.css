@@ -1,17 +1,32 @@
+/* GOTO :: BASE STYLES */
+* {
+  border: 1px dashed black;
+}
 body {
   width: 100%;
-  margin:auto;
 }
 
 .container {
-  width: 100%;
-  margin: 50px;
+  margin:auto;
 }
 
+
+/* GOTO :: HEADER STYLES */
 .header-container {
   margin: auto;
+  width:100%;
+  height: 50px;
+}
+.header-logo-area {
+  background: red;
+  height:100px;
 }
 
+
+/* GOTO :: QUESTION CONTAINER STYLES */
+
+
+/* GOTO :: ANSWER STYLES */
 .hidden-answer {
   display: none;
 }
